@@ -1,7 +1,10 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
+
+puts "Seeding..."
+
+Animal.create(name: "Pigeon Mountain Salamander",
+nombre: "Salamandra",
+type: "Amphibians",
+image: "https://www.georgiaencyclopedia.org/wp-content/uploads/2021/02/pigeon-mountain-salamander_001-1622x1080.jpg",
+threatened: true)
+
+puts "Finished seeding"
