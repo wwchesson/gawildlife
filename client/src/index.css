@@ -79,6 +79,11 @@ code {
   padding-bottom: 20px;
 }
 
+.navbar {
+  display: "flex";
+  margin: "auto"
+}
+
 .wildlife {
   color: #663600;
   font-size: 3em;

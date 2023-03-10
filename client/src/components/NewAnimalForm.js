@@ -24,7 +24,7 @@ function NewAnimalForm({ onAddAnimal }) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    fetch("https://gawildlifebackend.onrender.com/animals", {
+    fetch("/animals", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
