@@ -84,3 +84,4 @@ production:
   database: georgia_wildlife_production
   username: georgia_wildlife
   password: <%= ENV["GEORGIA_WILDLIFE_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
